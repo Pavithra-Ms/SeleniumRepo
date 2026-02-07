@@ -20,7 +20,6 @@ public class IsPrimeNumber {//Cls Name
             }
         }
 
-        // print result
         if (isPrime) {
             System.out.println(input + " is a Prime number");
         } else {
@@ -28,3 +27,4 @@ public class IsPrimeNumber {//Cls Name
         }
     }
 }
+
