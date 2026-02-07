@@ -15,6 +15,7 @@ public class CreateAccount {
 				driver.findElement(By.linkText("Accounts")).click();//Navigate to the accounts tab
 				driver.findElement(By.linkText("Create Account")).click();//To navigate the create account
 				driver.findElement(By.id("accountName")).sendKeys("Dora");//Account name
+				driver.findElement(By.name("description")).sendKeys("Selenium Automation Tester");//To description
 				driver.findElement(By.id("numberEmployees")).sendKeys("1750305");//Employee number
 				driver.findElement(By.id("officeSiteName")).sendKeys("LeafTaps");//Site name 
 				driver.findElement(By.className("smallSubmit")).click();
@@ -25,3 +26,4 @@ public class CreateAccount {
 			}
 			
 }
+
