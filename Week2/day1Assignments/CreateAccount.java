@@ -21,6 +21,7 @@ public class CreateAccount {
 				String title = driver.getTitle();
 				System.out.println(title);	// to print the title of the web-site
 				driver.close();//To force close the browser
+				
 			}
 			
 }
